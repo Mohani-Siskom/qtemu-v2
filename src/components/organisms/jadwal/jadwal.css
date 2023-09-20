@@ -1,0 +1,53 @@
+.container1 {
+  /* border: 1px solid #ccc; */
+  background-color: #eee;
+  padding: 16px;
+  margin: 16px 0;
+  box-shadow: 2px 2px #333;
+}
+
+.container1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.lihat {
+  color: rgb(77, 77, 179);
+}
+
+p {
+  padding: 6px;
+}
+
+button.style1 {
+  width: 110px;
+  padding: 7px;
+  margin-top: 7px;
+  background-color: aqua;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.style2 {
+  width: 110px;
+  padding: 7px;
+  margin-top: 7px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header {
+  padding: 5px;
+}
+
+.container1 img {
+  float: left;
+  width: 150px;
+  height: 160px;
+  margin-right: 20px;
+}
